@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">存款</view>
+  <view>
+     <input placeholder="请输入本金（元）" type="number" bindblur="benNum"></input>
+     <input placeholder="请输入利率%" type="number" bindblur="lixiNum"></input>
+     <input placeholder="请输入存几年" type="number" bindblur="YNum"></input>
+  </view>
+  <view>{{years}}年之后所得资金为：{{money}}元</view>
+  <button type="primary" bindtap="calc">最终所得</button>
+</view>
