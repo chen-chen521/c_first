@@ -1,0 +1,24 @@
+/* pages/qvancheng/qvancheng.wxss */
+/**index.wxss**/
+.boxModel01{
+    width: 80%;
+    height: 180px;
+    background-color: yellow;/*背景颜色*/
+    border: 3px dashed #f00;
+    padding: 20px;/*内边距*/
+    margin: 20px;/*外边距*/
+  }
+  .boxModel02{
+    width: 80%;
+    height: 180px;
+    border: 5px solid rgb(0,255,0);
+    padding-top: 20px;/*内上边距*/
+    margin-bottom: 20px;/*外下边距*/
+  }
+  .boxModel03{
+    width: 80%;
+    height: 270px;
+    border: 5px dotted rgba(0,0,255,0.3);
+    padding-left: 20px;/*内左边距*/
+    margin: 0 20px;/*外上下边距为0，左右边距为20px*/
+  }

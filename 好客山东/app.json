@@ -1,0 +1,51 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/taishan/taishan",
+        "pages/qvancheng/qvancheng",
+        "pages/sankong/sankong",
+        "pages/dezhou/dezhou"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "好客山东欢迎您",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#90EE90",
+        "selectedColor": "#00f",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "/images/首页1.png",
+                "selectedIconPath": "/images/首页2.png"
+            },
+            {
+                "pagePath": "pages/taishan/taishan",
+                "text": "泰山",
+                "iconPath": "/images/泰山1.png",
+                "selectedIconPath": "/images/泰山2.png"
+            },
+            {
+                "pagePath": "pages/qvancheng/qvancheng",
+                "text": "泉城",
+                "iconPath": "/images/泉城1.png",
+                "selectedIconPath": "/images/泉城2.png"
+            },
+            {
+                "pagePath": "pages/sankong/sankong",
+                "text": "三孔",
+                "iconPath": "/images/三孔1.png",
+                "selectedIconPath": "/images/三孔2.png"
+            },
+            {
+                "pagePath": "pages/dezhou/dezhou",
+                "text": "德州",
+                "iconPath": "/images/德州1.png",
+                "selectedIconPath": "/images/德州2.png"
+            }
+        ]
+    }
+}

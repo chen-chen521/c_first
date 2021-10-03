@@ -1,0 +1,23 @@
+<!--pages/dezhou/dezhou.wxml-->
+<view class="box">
+    
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular='{{circular}}'>
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="350"/>
+    </swiper-item>
+  </block>
+</swiper><!--在微信小程序中复制代码，辅助index.wxml使用,实现轮播图的功能实现-->
+<view class = "content">
+  <view class = 'pro' wx:for="{{prolist}}"><!--循环列表prolist--> 
+  </view>
+</view>
+  <view class="text">
+     德州，古称安德，简称德，位于山东省西北部、黄河下游冲积平原，是山东省的西北大门。北接河北省沧州市，南接省会济南市、聊城市，西邻河北省衡水市，东连滨州市。处于环渤海经济圈、京津冀经济圈、山东半岛蓝色经济区以及黄河三角洲高效生态经济区交汇区域。京杭大运河有140多公里流经境内，历史上曾是重要的漕运通道，现如今已定位为京津冀协同发展示范城市。 
+     <view>德州自古就有“九达天衢”、“神京门户”之称，是全国重要的交通枢纽。历史悠久，是大汶口文化和龙山文化的发祥地之一。明清时期是全国33个工商业大城市之一，有着深厚的历史文化底蕴。现存禹王亭、秦汉墓群、东方朔画赞碑、苏禄国东王墓、四女寺、文昌阁、定慧寺，董子读书台等众多历史古迹。“三过家门而不入”的大禹、“射日”英雄后羿、“罢黜百家、独尊儒术”的董仲舒、“滑稽之雄”东方朔、大书法家颜真卿、邢侗等都在德州留下了熠熠生辉的印迹。 
+     </view>
+     <view>德州是中国太阳城、中国功能糖城、中国优秀旅游城市以及国家交通运输主枢纽城市。德州扒鸡、金丝小枣、保店驴肉、德州黑陶等地方特产驰名海内外，其中，德州扒鸡、保店驴肉、乐陵金丝小枣被称为德州三宝。
+     </view>
+  </view>
+</view>
